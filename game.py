@@ -24,7 +24,7 @@ jumpCount = 10
 ##### main loop #####
 run = True
 while (run):
-    pygame.time.delay(50) #in milliseconds
+    pygame.time.delay(10) #in milliseconds
 
     #checking for events
     for event in pygame.event.get():
